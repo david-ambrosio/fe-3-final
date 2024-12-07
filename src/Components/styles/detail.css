@@ -1,0 +1,30 @@
+.detail {
+  text-align: center;
+  padding: 20px;
+}
+
+.detail-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.detail-card h2 {
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+}
+
+.detail-card p {
+  margin: 5px 0;
+}
+
+.doctor-image {
+  width: 150px; /* Tamaño de la imagen */
+  height: 150px;
+  border-radius: 50%; /* Hacer la imagen circular */
+  object-fit: cover; /* Asegurarse de que la imagen se ajuste bien */
+}

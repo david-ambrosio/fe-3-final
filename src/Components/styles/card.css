@@ -1,0 +1,35 @@
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  border: 1px solid #ddd;
+  padding: 15px;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.card button:hover {
+  background-color: #0056b3;
+}
+
+.card-image {
+  width: 100%; /* Asegura que la imagen ocupe todo el ancho de la tarjeta */
+  height: 150px; /* Ajusta la altura de la imagen */
+  object-fit: cover; /* Mantiene la proporción de la imagen sin distorsión */
+  border-radius: 10px; /* Bordes redondeados para la imagen */
+  margin-bottom: 10px; /* Espaciado debajo de la imagen */
+}
